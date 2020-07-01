@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Identifier</key>
+	<string>Spotify.jss.recipe</string>
+	<key>Input</key>
+	<dict>
+		<key>CATEGORY</key>
+		<string>Testing</string>
+		<key>DOWNLOAD_URL</key>
+		<string>https://download.scdn.co/Spotify.dmg</string>
+		<key>GROUP_NAME</key>
+		<string>%NAME%-update-smart</string>
+		<key>GROUP_TEMPLATE</key>
+		<string>SmartGroupTemplate.xml</string>
+		<key>NAME</key>
+		<string>Spotify</string>
+		<key>POLICY_CATEGORY</key>
+		<string>Testing</string>
+		<key>POLICY_TEMPLATE</key>
+		<string>PolicyTemplate.xml</string>
+		<key>SELF_SERVICE_DESCRIPTION</key>
+		<string>Stream music, create playlists and more.</string>
+		<key>SELF_SERVICE_ICON</key>
+		<string>Spotify.png</string>
+	</dict>
+	<key>ParentRecipe</key>
+	<string>com.github.jss-recipes.jss.Spotify</string>
+	<key>ParentRecipeTrustInfo</key>
+	<dict>
+		<key>non_core_processors</key>
+		<dict>
+			<key>com.github.homebysix.VersionSplitter/VersionSplitter</key>
+			<dict>
+				<key>git_hash</key>
+				<string>7eddcc3033c2cbe08a41b798327961f3e1fc7532</string>
+				<key>path</key>
+				<string>~/Library/AutoPkg/RecipeRepos/com.github.autopkg.homebysix-recipes/VersionSplitter/VersionSplitter.py</string>
+				<key>sha256_hash</key>
+				<string>918cd1eb1f69d08b8bd8ec0da7b4bd68acec8e818694a0fb3fc54696ecef676c</string>
+			</dict>
+		</dict>
+		<key>parent_recipes</key>
+		<dict>
+			<key>com.github.autopkg.download.Spotify</key>
+			<dict>
+				<key>git_hash</key>
+				<string>4f69d86d0d09b299d47b0f0197a03d97a67ad4ef</string>
+				<key>path</key>
+				<string>~/Library/AutoPkg/RecipeRepos/com.github.autopkg.recipes/Spotify/Spotify.download.recipe</string>
+				<key>sha256_hash</key>
+				<string>71b0fbf50f45a1b55b1cb483811bd129c590bc37e1bbed17defd1ad5609f5169</string>
+			</dict>
+			<key>com.github.homebysix.pkg.Spotify</key>
+			<dict>
+				<key>git_hash</key>
+				<string>ea148506a4a17a8be1b108eee20577fd055b31c1</string>
+				<key>path</key>
+				<string>~/Library/AutoPkg/RecipeRepos/com.github.autopkg.homebysix-recipes/Spotify/Spotify.pkg.recipe</string>
+				<key>sha256_hash</key>
+				<string>0ca8a66ee1c786625c7a7cb0a441d3167f43e25d6a15352fd3291c2588776b25</string>
+			</dict>
+			<key>com.github.jss-recipes.jss.Spotify</key>
+			<dict>
+				<key>path</key>
+				<string>~/Library/AutoPkg/RecipeRepos/com.github.autopkg.jss-recipes/Spotify/Spotify.jss.recipe</string>
+				<key>sha256_hash</key>
+				<string>cba5c08a745baac493f7032905138f63fb45dece595d1347b13d9f7fe95feb0c</string>
+			</dict>
+		</dict>
+	</dict>
+</dict>
+</plist>

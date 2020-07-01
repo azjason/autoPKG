@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Identifier</key>
+	<string>local.jss-upload.GoogleChrome</string>
+	<key>Input</key>
+	<dict>
+		<key>CATEGORY</key>
+		<string>Applications</string>
+		<key>DOWNLOAD_URL</key>
+		<string>https://dl.google.com/chrome/mac/stable/GGRO/googlechrome.dmg</string>
+		<key>NAME</key>
+		<string>Google Chrome</string>
+	</dict>
+	<key>ParentRecipe</key>
+	<string>com.godaddy.jss-upload.googlechrome</string>
+	<key>ParentRecipeTrustInfo</key>
+	<dict>
+		<key>non_core_processors</key>
+		<dict/>
+		<key>parent_recipes</key>
+		<dict>
+			<key>com.github.autopkg.download.googlechrome</key>
+			<dict>
+				<key>git_hash</key>
+				<string>1d8ed0662d02653b32d0c34f041df521a1c551aa</string>
+				<key>path</key>
+				<string>~/Library/AutoPkg/RecipeRepos/com.github.autopkg.recipes/GoogleChrome/GoogleChrome.download.recipe</string>
+				<key>sha256_hash</key>
+				<string>f5313754f89bbff7c7d71dd99fa5151b67ff75cf21a00b0ce215c415b0c09549</string>
+			</dict>
+			<key>com.github.autopkg.pkg.googlechrome</key>
+			<dict>
+				<key>git_hash</key>
+				<string>f29f399c54adee7122e9fdc3c1ea7ed4c67388a4</string>
+				<key>path</key>
+				<string>~/Library/AutoPkg/RecipeRepos/com.github.autopkg.recipes/GoogleChrome/GoogleChrome.pkg.recipe</string>
+				<key>sha256_hash</key>
+				<string>5acdf716353ccc57f021008bc5b4b55a5cb4e578e0f96864b71d4d2d29742ec8</string>
+			</dict>
+			<key>com.godaddy.jss-upload.googlechrome</key>
+			<dict>
+				<key>git_hash</key>
+				<string>ea12a9c9cb26d3254cbb1a51f1eb0fe7f0dad6f9</string>
+				<key>path</key>
+				<string>~/Library/AutoPkg/RecipeRepos/com.github.azjason.autoPKG/GoogleChrome.jss-upload.recipe</string>
+				<key>sha256_hash</key>
+				<string>2e96851aa8e4ced75bfe8b4b704e819201f81a754a19ff32b843f5b240a58976</string>
+			</dict>
+		</dict>
+	</dict>
+</dict>
+</plist>
