@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>Identifier</key>
-	<string>local.jss-upload.GoogleChrome</string>
+	<string>com.godaddy.jss-upload.GoogleChrome</string>
 	<key>Input</key>
 	<dict>
 		<key>CATEGORY</key>
