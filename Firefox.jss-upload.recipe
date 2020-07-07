@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>Identifier</key>
-	<string>com.godaddy.jss-Firefox</string>
+	<string>com.godaddy.jss-upload.Firefox</string>
 	<key>Input</key>
 	<dict>
 		<key>CATEGORY</key>
@@ -28,7 +28,7 @@
 		<string>It's Firefox yo.</string>
 	</dict>
 	<key>ParentRecipe</key>
-	<string>com.github.autopkg.pkg.Firefox_EN</string>
+	<string>com.godaddy.jss-upload.Firefox</string>
 	<key>ParentRecipeTrustInfo</key>
 	<dict>
 		<key>non_core_processors</key>
